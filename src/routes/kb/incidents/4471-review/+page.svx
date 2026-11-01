@@ -2,7 +2,7 @@
 layout: runbook
 title: '#4471 review: two causes behind the date reports'
 owner: Fetz and Codex
-status: reviewed
+status: closed
 reviewed: '2026-11-01'
 signature: 'Fetz / Codex / S01E03 / 2026-11-01'
 ---
@@ -13,6 +13,10 @@ signature: 'Fetz / Codex / S01E03 / 2026-11-01'
  import DedupeExplorer from '#lib/kb/DedupeExplorer.svelte';
  import RenderStamp from '#lib/kb/RenderStamp.svelte';
 </script>
+
+## Engineering outcome
+
+The course desk update says #4471 closed on 5 October: parser FIXED, `fix(dates): parse dd/mm for eu locales`; hint WON’T FIX because the booking-v3 form was retired. This is a desk-reported outcome, not a fix implemented or regression-tested in this repository. The historical snapshot and computed evidence below remain unchanged.
 
 ## Findings
 
